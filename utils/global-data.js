@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'VIN Lookup history';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Copart and IAAI';
+    : 'Copart and IAAI check vin';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved.';
